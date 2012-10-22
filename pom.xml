@@ -10,6 +10,15 @@
 		<artifactId>mikera-pom</artifactId>
 		<version>0.0.3</version>
 	</parent>
+	
+	<licenses>
+		<license>
+			<name>Eclipse Public License (EPL)</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+		</license>
+	</licenses>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -22,4 +31,20 @@
 			<version>0.4.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+	
+
+	<scm>
+		<connection>scm:git:git@github.com:mikera/${project.artifactId}.git</connection>
+		<url>scm:git:git@github.com:mikera/${project.artifactId}.git</url>
+		<developerConnection>scm:git:git@github.com:mikera/${project.artifactId}.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<repositories>
+		<repository>
+			<id>clojars.org</id>
+			<name>Clojars repository</name>
+			<url>https://clojars.org/repo</url>
+		</repository>
+	</repositories>
 </project>
