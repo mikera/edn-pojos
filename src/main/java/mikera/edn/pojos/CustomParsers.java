@@ -1,4 +1,4 @@
-package us.bpsm.edn.pojos;
+package mikera.edn.pojos;
 
 import java.util.ArrayList;
 import java.util.HashMap;

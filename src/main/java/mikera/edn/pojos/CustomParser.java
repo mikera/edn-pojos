@@ -1,4 +1,4 @@
-package us.bpsm.edn.pojos;
+package mikera.edn.pojos;
 
 import us.bpsm.edn.parser.Parseable;
 import us.bpsm.edn.parser.Parser;

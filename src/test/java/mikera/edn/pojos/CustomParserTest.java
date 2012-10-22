@@ -1,4 +1,4 @@
-package us.bpsm.edn.pojos;
+package mikera.edn.pojos;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +7,9 @@ import java.awt.geom.Rectangle2D;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import mikera.edn.pojos.CustomParser;
+import mikera.edn.pojos.CustomParsers;
 
 import org.junit.Test;
 
