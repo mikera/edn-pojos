@@ -1,7 +1,7 @@
 edn-pojos
 =========
 
-Solution for unmarshalling Java objects out of **edn** format data
+A lightweight library for building / unmarshalling Java POJO objects from **edn** format data
 
 ### Description
 
@@ -11,7 +11,7 @@ using Clojure's Lisp s-expressions as the basic format. Main advantages of edn:
  - A well-specified format (see https://github.com/edn-format/edn)
  - A rich set of data types (an improvement over JSON)
  - Built-in extensibility to allow custom data types
- - Compatibility with the Clojure reader
+ - Compatibility with the Clojure reader / printer
 
 **edn-pojos** allows objects represented into this format to be efficiently parsed into
 Java objects. You can create a custom parser to read edn data into any Java POJO format you like.
