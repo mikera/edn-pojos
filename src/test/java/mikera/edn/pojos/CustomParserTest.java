@@ -51,8 +51,8 @@ public class CustomParserTest {
     @Test
     public void testMapParser() {
         // Point parser
-        final Keyword kx = Keyword.newKeyword(null, "x");
-        final Keyword ky = Keyword.newKeyword(null, "y");
+        final Keyword kx = Keyword.newKeyword("", "x");
+        final Keyword ky = Keyword.newKeyword("", "y");
         CustomParser<Double> doubleParser = CustomParsers.DOUBLE_PARSER;
         HashMap<Keyword, CustomParser<Double>> pointMap =
             new HashMap<Keyword, CustomParser<Double>>();
@@ -69,8 +69,8 @@ public class CustomParserTest {
             };
 
         // Rectangle parser
-        final Keyword kul = Keyword.newKeyword(null, "upperLeft");
-        final Keyword klr = Keyword.newKeyword(null, "lowerRight");
+        final Keyword kul = Keyword.newKeyword("", "upperLeft");
+        final Keyword klr = Keyword.newKeyword("", "lowerRight");
         HashMap<Keyword, CustomParser<Point2D.Double>> rectMap =
             new HashMap<Keyword, CustomParser<Point2D.Double>>();
         rectMap.put(kul, pointParser);
